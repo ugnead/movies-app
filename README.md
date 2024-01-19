@@ -1,11 +1,22 @@
 <h1>🎞️ Movies App</h1>
 
+<h2>🛠️ Technologies</h2>
+
+<ul>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Node</li>
+  <li>Bootstrap</li>
+  <li>MongoDB</li>
+  <li>Mongoose</li>
+</ul>
+
 <h2>🚀 Features</h2>
 
 <ul>
   <li>Register / Login</li>
   <li>Add Movie</li>
-  <li>Edit Movie</li>
+  <li>Update Movie</li>
   <li>Delete Movie</li>
   <li>Apply Filter to Reorder Movies by Title</li>
 </ul>
