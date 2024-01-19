@@ -5,7 +5,7 @@ import MovieInfo from "../MovieInfo/MovieInfo";
 import MovieListCSS from "./MovieList.module.css";
 import { UserContext } from "../../UserContext";
 
-const url = "http://localhost:4000/api/v1/movies/";
+const url = "process.env.REACT_APP_API_URL}/api/movies/";
 
 function MovieList() {
     const { username } = useContext(UserContext);

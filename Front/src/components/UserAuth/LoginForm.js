@@ -21,7 +21,7 @@ const LoginForm = () => {
 
         try {
             const response = await fetch(
-                "http://localhost:4000/api/v1/users/login",
+                `${process.env.REACT_APP_API_URL}/api/users/login`,
                 {
                     method: "POST",
                     headers: {
