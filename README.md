@@ -3,12 +3,24 @@
 <h2>🛠️ Technologies</h2>
 
 <ul>
-  <li>JavaScript</li>
-  <li>React</li>
-  <li>Node</li>
-  <li>Bootstrap</li>
-  <li>MongoDB</li>
-  <li>Mongoose</li>
+  <li>
+    <code>JavaScript</code>
+  </li>
+  <li>
+    <code>React</code>
+  </li>
+  <li>
+    <code>Node</code>
+  </li>
+  <li>
+    <code>Bootstrap</code>
+  </li>
+  <li>
+    <code>MongoDB</code>
+  </li>
+  <li>
+    <code>Mongoose</code>
+  </li>
 </ul>
 
 <h2>🚀 Features</h2>
