@@ -22,7 +22,7 @@ function Header() {
                 >
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/movies">
-                            Movie App
+                            Movies App
                         </Link>
                         <button
                             className="navbar-toggler"
@@ -43,7 +43,7 @@ function Header() {
                                 {localStorage.getItem("username") ? (
                                     <li className="nav-item">
                                         <span className="nav-link">
-                                            Labas, {username}
+                                            Hello, {username}
                                         </span>
                                     </li>
                                 ) : null}
@@ -53,7 +53,7 @@ function Header() {
                                             className="nav-link btn"
                                             onClick={handleLogout}
                                         >
-                                            Atsijungti
+                                            Logout
                                         </button>
                                     </li>
                                 ) : (
@@ -63,7 +63,7 @@ function Header() {
                                                 className="nav-link"
                                                 to="/login"
                                             >
-                                                Prisijungti
+                                                Login
                                             </Link>
                                         </li>
                                         <li className="nav-item">
@@ -71,7 +71,7 @@ function Header() {
                                                 className="nav-link"
                                                 to="/register"
                                             >
-                                                Registruotis
+                                                Register
                                             </Link>
                                         </li>
                                     </>

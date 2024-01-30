@@ -37,7 +37,7 @@ function MovieInfo(props) {
         <>
             {movieList.length === 0 ? (
                 <>
-                    <p className="text-center mt-5">Dar neturi pridėtų filmų</p>
+                    <p className="text-center mt-5">You don't have any added movies yet.</p>
                     <div
                         className="modal fade"
                         id="staticBackdrop"
@@ -284,9 +284,9 @@ function MovieInfo(props) {
                         <div className="row">
                             <div className="col">
                                 <h3 className="fs-1">{title}</h3>
-                                <p>Išleidimo data: {releaseYear}</p>
-                                <p>Žanras: {genre}</p>
-                                <p>Mano įvertinimas: {rating}</p>
+                                <p>Release date: {releaseYear}</p>
+                                <p>Genre: {genre}</p>
+                                <p>My rating: {rating}</p>
                                 <div className="col">
                                     <button
                                         onClick={() => handleEditMovie(id)}
@@ -295,14 +295,14 @@ function MovieInfo(props) {
                                         data-bs-toggle="modal"
                                         data-bs-target="#staticBackdrop"
                                     >
-                                        Redaguoti
+                                        Edit
                                     </button>
                                     <button
                                         onClick={() => handleDelete(id)}
                                         type="button"
                                         className="btn btn-outline-danger"
                                     >
-                                        Ištrinti
+                                        Delete
                                     </button>
                                 </div>
                             </div>

@@ -269,7 +269,7 @@ function MovieList() {
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                         >
-                            Filtruoti
+                            Filter
                         </button>
                         <ul className="dropdown-menu">
                             <li>
