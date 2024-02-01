@@ -10,7 +10,10 @@
     <code>React</code>
   </li>
   <li>
-    <code>Node</code>
+    <code>Node.js</code>
+  </li>
+  <li>
+    <code>Express.js</code>
   </li>
   <li>
     <code>Bootstrap</code>
