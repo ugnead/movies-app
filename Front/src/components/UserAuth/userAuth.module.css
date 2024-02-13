@@ -1,8 +1,13 @@
-.form {
-    max-width: 400px;
+.formBox {
     display: flex;
-    flex-direction: column;
-    height: 80vh;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+    height: 90vh;
+}
+
+.form {
+    width: 400px; 
+    padding: 25px;
+    border: 1px solid rgb(60, 60, 60);
+    border-radius: 5px;
 }

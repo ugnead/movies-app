@@ -50,55 +50,53 @@ const RegistrationForm = () => {
     };
 
     return (
-        <div className="container">
-            <div className={UserAuthCSS.form}>
-                
-            
-            <h2>Registration Form</h2>
-            <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                    <label htmlFor="username" className="form-label">
-                        Username
-                    </label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="username"
-                        name="username"
-                        value={formData.username}
-                        onChange={handleChange}
-                    />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="email" className="form-label">
-                        Email
-                    </label>
-                    <input
-                        type="email"
-                        className="form-control"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                    />
-                </div>
-                <div className="mb-3">
-                    <label htmlFor="password" className="form-label">
-                        Password
-                    </label>
-                    <input
-                        type="password"
-                        className="form-control"
-                        id="password"
-                        name="password"
-                        value={formData.password}
-                        onChange={handleChange}
-                    />
-                </div>
-                <button type="submit" className="btn btn-primary">
-                    Register
-                </button>
-            </form>
+        <div className={`container ${UserAuthCSS.formBox}`}>
+            <div className={UserAuthCSS.form}>          
+                <h2>Registration Form</h2>
+                <form onSubmit={handleSubmit}>
+                    <div className="mb-3">
+                        <label htmlFor="username" className="form-label">
+                            Username
+                        </label>
+                        <input
+                            type="text"
+                            className="form-control"
+                            id="username"
+                            name="username"
+                            value={formData.username}
+                            onChange={handleChange}
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="email" className="form-label">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            className="form-control"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                        />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="password" className="form-label">
+                            Password
+                        </label>
+                        <input
+                            type="password"
+                            className="form-control"
+                            id="password"
+                            name="password"
+                            value={formData.password}
+                            onChange={handleChange}
+                        />
+                    </div>
+                    <button type="submit" className="btn btn-primary">
+                        Register
+                    </button>
+                </form>
             </div>
         </div>
     );

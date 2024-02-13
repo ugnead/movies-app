@@ -58,7 +58,7 @@ const LoginForm = () => {
     };
 
     return (
-        <div className="container">
+        <div className={`container ${UserAuthCSS.formBox}`}>
             <div className={UserAuthCSS.form}>
                 <h2>Login Form</h2>
                 <form onSubmit={handleSubmit}>
