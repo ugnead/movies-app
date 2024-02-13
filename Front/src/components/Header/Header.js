@@ -36,7 +36,7 @@ function Header() {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div
-                            className="collapse navbar-collapse"
+                            className="collapse navbar-collapse justify-content-end"
                             id="navbarSupportedContent"
                         >
                             <ul className="navbar-nav mb-2 mb-lg-0">
@@ -58,7 +58,7 @@ function Header() {
                                     </li>
                                 ) : (
                                     <>
-                                        <li className="nav-item">
+                                        <li className="nav-item me-3">
                                             <Link
                                                 className="nav-link"
                                                 to="/login"
