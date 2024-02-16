@@ -1,38 +1,20 @@
-<h1>🎞️ Movies App</h1>
+# 🎞️ Movies App
 
-<h2>🛠️ Technologies</h2>
-<ul>
-  <li>
-    <code>JavaScript</code>
-  </li>
-  <li>
-    <code>React</code>
-  </li>
-  <li>
-    <code>Node.js</code>
-  </li>
-  <li>
-    <code>Express.js</code>
-  </li>
-  <li>
-    <code>Bootstrap</code>
-  </li>
-  <li>
-    <code>MongoDB</code>
-  </li>
-  <li>
-    <code>Mongoose</code>
-  </li>
-</ul>
+## 🛠️ Technologies
+- `JavaScript`
+- `React`
+- `Node.js`
+- `Express.js`
+- `Bootstrap`
+- `MongoDB`
+- `Mongoose`
 
-<h2>🚀 Features</h2>
-<ul>
-  <li>Register / Login</li>
-  <li>Add Movie</li>
-  <li>Update Movie</li>
-  <li>Delete Movie</li>
-  <li>Apply Filter to Reorder Movies by Title</li>
-</ul>
+## 🚀 Features
+- Register / Login
+- Add Movie
+- Update Movie
+- Delete Movie
+- Apply Filter to Reorder Movies by Title
 
-<h2>🎥 Demo Video</h2>
-https://github.com/ugnead/movies-app/assets/75221990/907a1108-e405-4824-976b-5fada7e93592
+## 🎥 Demo Video
+[Demo Video](https://github.com/ugnead/movies-app/assets/75221990/907a1108-e405-4824-976b-5fada7e93592)
